@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Utilities */
+
+.debug{
+  background-color: rgba(165, 42, 42, 0.4);
+  min-height: 80px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.container{
+
+}
+
+/* /Utilities */
+
+/* main */ 
+
+main{
+  height: calc(100vh - 80px);
+}
+
+main section{
+  background-color: rgba(187, 14, 14, 0.4);
+  height: calc(100vh - 80px);
+}
+
+.nav{
+  height: 100%;
+  width: 200px;
+}
+
+.row{
+  height: 100%;
+  width: calc(100% - 200px);
+  background-color: rgba(165, 42, 42, 0.2);
+  overflow: auto;
+}
+
+header{
+  min-height: 80px;
+  width: 100%;
+}
