@@ -230,3 +230,13 @@ footer div:nth-child(2){
 footer{
   background-color: #282828;
 }
+
+footer .container-footer{
+  width: 100%;
+  padding: 0;
+}
+
+footer .container-footer img{
+  width: 30px;
+}
+
