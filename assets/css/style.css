@@ -19,10 +19,61 @@ body{
   display: flex;
 }
 
-.container{
-
+img{
+  max-width: 100%;
 }
 
+.container{
+  max-width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.container h4{
+  color: white;
+  padding-bottom: 10px;
+}
+
+.container span{
+  color: #7A7E82;
+}
+
+.card{
+  max-width: calc(100% / 6);
+  padding-right: 15px;
+}
+
+h2 {
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 2.0rem;
+}
+
+span{
+  font-size: 0.9rem;
+}
+
+.row{
+  height: 100%;
+  width: calc(100% - 200px);
+  background-color: #141922;
+  overflow: auto;
+}
+
+a{
+  color: white;
+  border: 1px solid white;
+  padding: 10px 30px;
+  border-radius: 25px;
+  margin-right: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
 /* /Utilities */
 
 /* main */ 
@@ -32,37 +83,66 @@ main{
 }
 
 main section{
-  background-color: rgba(187, 14, 14, 0.4);
   height: calc(100vh - 80px);
 }
 
-.nav{
+.aside{
   height: 100%;
   width: 200px;
 }
 
-.row{
-  height: 100%;
-  width: calc(100% - 200px);
-  background-color: rgba(165, 42, 42, 0.2);
-  overflow: auto;
+.bottom{
+  height: 80px;
+  background-color: blue;
 }
+
+.top{
+  height: calc(100% - 80px);
+  background-color: blueviolet;
+}
+
 
 header{
   min-height: 80px;
-  width: 100%;
+  width: calc(100% - 200px);
+  opacity: 0.8;
+  position: fixed;
+  align-items: center;
+  background-color: #090B12;
+}
+
+header.inner div{
+ width: 100%;
+ justify-content: right;
 }
 
 main ul {
   list-style: none;
   text-transform: uppercase;
   justify-content: center;
-  background-color: yellow;
   flex-wrap: wrap;
+  color: #7A7E82;
 }
 
 main ul li{
   padding: 30px 15px;
+}
+
+main .row ul{
+  margin-top: 80px;
+}
+
+.row .container h2{
+  display: block;
+}
+
+.h2-subtitles{
+  padding-left: 20px;
+  color: #7A7E82;
+}
+
+img#radious{
+  border-radius: 50%;
 }
 
 /* /main */
@@ -77,4 +157,8 @@ footer div:first-child, footer div:last-child{
 footer div:nth-child(2){
   height: 100%;
   width: calc(100% - 200px - 200px);
+}
+
+footer{
+  background-color: #282828;
 }
