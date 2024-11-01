@@ -234,9 +234,35 @@ footer{
 footer .container-footer{
   width: 100%;
   padding: 0;
+  align-items: center;
 }
 
 footer .container-footer img{
-  width: 30px;
+  width: 50px;
 }
 
+footer .container-footer .col{
+  width: calc(100% / 3);
+}
+
+footer .container-footer div:first-child{
+  padding-left: 10px;
+}
+
+footer .container-footer div:last-child{
+  padding: 5px;
+}
+
+footer .container-footer div i{
+  padding: 5px;
+  color: #7A7E82;
+}
+
+footer .container-footer div span{
+  font-size: 0.7rem;
+  color: #7A7E82;
+}
+
+footer .container-footer div p{
+  color: white;
+}
