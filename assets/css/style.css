@@ -99,6 +99,7 @@ main section{
 
 .bottom{
   height: 65px;
+  background-color: #000000;
 }
 
 .top{
@@ -136,6 +137,7 @@ main section{
 
 .top ul.playlist{
   padding-top: 15px;
+  color: #7A7E82;
 }
 
 .aside .bottom a{
@@ -178,6 +180,7 @@ header{
   position:fixed;
   align-items: center;
   background-color: #090B12;
+  z-index: 1;
 }
 
 header.inner div{
@@ -195,6 +198,7 @@ main ul {
 
 main ul li{
   padding: 30px 15px;
+  color: #7A7E82;
 }
 
 main .row ul{
@@ -218,7 +222,37 @@ h4{
   padding-top: 15px;
 }
 
+.container .card img{
+  position: relative;
+}
 /* /main */
+
+/* Hover  */
+
+header.inner a:hover{
+  font-size: 1.4rem;
+}
+
+.card img:hover::before{
+  content: '/f144';
+  font-family: 'Font Awesome\ 5Free';
+  position: absolute;
+  top: 95px;
+  left: 110px;
+  font-size: 3rem;
+  color: white;
+}
+
+ul.playlist li:hover{
+  color: white;
+  cursor: pointer;
+}
+
+ul.nav li:hover{
+  color: white;
+}
+
+/* /Hover  */
 
 /* Footer */
 
